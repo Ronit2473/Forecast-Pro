@@ -8,6 +8,8 @@ setuptools
 Certifi
 pymongo[srv]==3.12
 dotenv
+dill 
+pyaml
 
 
 

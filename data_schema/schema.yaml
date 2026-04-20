@@ -1,0 +1,24 @@
+train_columns:
+  Store: int
+  DayOfWeek: int
+  Date: datetime
+  Sales: int
+  Customers: int
+  Open: int
+  Promo: int
+  StateHoliday: str
+  SchoolHoliday: int
+
+store_columns:
+  Store: int
+  StoreType: str
+  Assortment: str
+  CompetitionDistance: float
+  CompetitionOpenSinceMonth: float
+  CompetitionOpenSinceYear: float
+  Promo2: int
+  Promo2SinceWeek: float
+  Promo2SinceYear: float
+  PromoInterval: str
+
+target_column: Sales

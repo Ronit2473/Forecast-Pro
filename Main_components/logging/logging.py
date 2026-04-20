@@ -19,4 +19,8 @@ logging.basicConfig(
 
 
 
+logger = logging.getLogger("ForecastPro")
+
+
+
 
