@@ -4,3 +4,10 @@ scikit-learn
 matplotlib
 seaborn
 pymongo
+setuptools
+Certifi
+
+
+
+
+##-e .
