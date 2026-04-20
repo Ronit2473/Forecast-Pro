@@ -1,5 +1,5 @@
 import sys
-from Forecastpro.logging import logging 
+from Main_components.logging import logging 
 
 class ForecastProException(Exception):
     def __init__(self,error_message,error_details:sys):

@@ -18,8 +18,8 @@ import pymongo
 import numpy as np
 import pandas as pd
 
-from Forecastpro.exception.exception import ForecastProException
-from Forecastpro.logging.logging import logging
+from Main_components.exception.exception import ForecastProException
+from Main_components.logging.logging import logging
 
 class Extact_data:
     def __init__(self):
