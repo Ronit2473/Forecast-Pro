@@ -16,6 +16,7 @@ class ForecastProException(Exception):
 # to check the exception handling is working or not we can run the below code snippet. It will raise an exception and we can check the log file for the error message.
 
 '''if __name__=="__main__":
+
     
     try:
         logging.logging.info("Testing the exception handling")
